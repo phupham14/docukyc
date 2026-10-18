@@ -1,0 +1,10 @@
+streamlit>=1.40
+torch>=2.4
+torchvision
+transformers==4.57.1
+peft==0.17.1
+accelerate>=1.2
+qwen-vl-utils[decord]
+Pillow>=11.0
+optimum-intel[openvino]>=2.2
+nncf>=3.4

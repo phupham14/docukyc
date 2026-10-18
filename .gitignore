@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Model weights: quá lớn để đưa lên git (GitHub giới hạn 100MB/file)
+qwen2.5_vl_lora_final/
+qwen2.5_vl_ov_int8/
+qwen2.5_vl_merged/
+*.safetensors
+*.bin
+*.blob
+*.cl_cache
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Biến môi trường
+.env
+.env.*
+
+# Editor / công cụ
+.vscode/
+.idea/
+.claude/settings.local.json
+.agents/
+.deepeval/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
